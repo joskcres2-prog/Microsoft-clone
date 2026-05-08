@@ -1,0 +1,134 @@
+.containerCards,
+.containerCardsTwo {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+.enlaces {
+    padding-left: 8rem;
+
+}
+
+
+.cards-one {
+    width: 50%;
+    margin: 0;
+}
+
+.cards-two {
+    margin: 0;
+    width: 50%;
+}
+
+.acceso {
+    flex-direction: row;
+}
+
+.mas {
+    display: inline;
+}
+
+.more {
+    display: none;
+}
+
+
+.card {
+    width: 50%;
+}
+
+
+.fondo {
+    display: none;
+}
+
+.img-inicio {
+    width: 100%;
+    display: flex;
+    background-image: url(../img/fondo1-1399x600.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 60rem;
+}
+
+.inicioOne {
+    font-size: 6rem;
+    position: static;
+    color: white;
+    width: 40%;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 65rem;
+}
+
+.fondo-2 {
+    display: none;
+}
+
+.fondoTwo {
+    padding: 2rem 0;
+    margin: auto;
+    width: 90% ;
+    display: flex;
+    background-image: url(../img/fondo2-1920x600.avif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    align-items: center ;
+    height: 40rem;
+    background-position: center;
+}
+.inicioTwo {
+    margin-left: 8rem;
+    position: static;
+    width: 40%;
+    max-width: 70rem;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: center;
+}
+
+.contactOne,
+.contactTwo {
+    width: 50%;
+    margin: 0 2rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+
+.accesibilidad {
+    margin: 0;
+    flex-direction: row;
+    gap: 3rem
+}
+
+@media screen and (min-width:1350px) {
+    .img-inicio {
+        height: 65rem;
+    }
+
+    .end {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem
+    }
+
+    .acceso,
+    .contact-list {
+        width: max-content;
+    }
+
+    .acceso {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

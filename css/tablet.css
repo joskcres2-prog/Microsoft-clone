@@ -1,0 +1,128 @@
+/* Desabilito los primeros iconos pues ya no son necesarios */
+
+.iconsOne {
+    display: none;
+}
+
+
+/* Hago la barra de navegacion visible */
+.header nav {
+    display: flex
+}
+
+/* Estilos de la nav */
+.header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header nav {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header nav a {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* haciendo visivle los textos que son necesarios */
+
+.all-microsoft {
+    display: inline-block;
+    margin-right: 2.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.lupa {
+    display: inline;
+}
+
+/* Ordenando elementos */
+.enlaces {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* esto hace que las cards ocupen la mitad del container para que no se estiren demas */
+.cards-one {
+    display: flex;
+    gap: 2rem;
+}
+
+.cards-two {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Hace que la lista se vea horizontal */
+.accesibilidad {
+    flex-direction: row;
+}
+
+.contact-list {
+    justify-content: flex-end;
+}
+
+.contact-list li:hover {
+    cursor: pointer;
+}
+
+.fondo {
+    max-width: 100%;
+}
+
+.inicioOne,
+.inicioTwo {
+    padding: 4rem 3.5rem;
+    margin: 1.5rem;
+    position: relative;
+    bottom: 8rem;
+    background-color: white;
+    box-shadow: 0 0.1rem .20rem .012rem rgba(0, 0, 0, 0.25);
+}
+
+.contactOne,
+.contactTwo {
+    width: 100%;
+    margin: 0 2rem;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.item {
+    width: 20rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact {
+    font-size: 1.6rem;
+}
+
+.subir {
+    display: inline-block;
+}
+
+.subir a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(97, 97, 97, 0.5);
+    padding: 1rem 2rem
+}
+
+.subir a:hover {
+    background-color: white;
+    box-shadow: 0 0.1rem .20rem .012rem rgba(0, 0, 0, 0.25);
+}
